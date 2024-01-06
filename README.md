@@ -20,7 +20,22 @@ Imagine a world where the ease of Arduino development meets the robust power of 
 
 <b>Engiro Zero is more than just a board; it's a gateway to endless possibilities.</b> Whether you're a seasoned developer crafting industrial solutions or a passionate maker exploring the boundaries of IoT, Engiro Zero equips you with the tools and confidence to turn your vision into reality.<br><br>
 
-<b>Board Overview</b><br><br>
+<b><h2>Board Overview</h2></b><br><br>
+
+![image](https://github.com/Wondernica/Engiro-Zero/assets/25891208/b8060e15-c19c-49cc-af57-4aaadbdceb14)
+
+<br><br><br>
+
+<b><h2>SAMD21 Arduino Pin Numbering</h2></b><br><br>
+
+![image](https://github.com/Wondernica/Engiro-Zero/assets/25891208/a99fbe41-152a-438e-a10c-35d27d8f2b3b)
+
+<br><br><br>
+
+<b><h2>Engiro-Zero Debug Port</h2></b><br><br>
+
+
+
 
 
 
