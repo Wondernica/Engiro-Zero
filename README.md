@@ -40,6 +40,15 @@ Imagine a world where the ease of Arduino development meets the robust power of 
 
 <b><h2>Engiro-Zero Debug Port</h2></b><br><br>
 
+![image](https://github.com/Wondernica/Engiro-Zero/assets/25891208/5c78f120-a7ec-4b22-bb40-087dfe07de43)
+
+<br><br>
+
+<b>Instructions:</b> Use external UART to USB converter to monitor the output of the serial monitor debug port.  Please take note of the converter UART port voltage.  DO NOT use converter with UART voltage level higher than +3.3V.  Higher voltage may damaged the Engiro-Zero serial monitor port.
+
+
+
+
 
 
 
