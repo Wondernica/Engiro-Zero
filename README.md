@@ -32,6 +32,12 @@ Imagine a world where the ease of Arduino development meets the robust power of 
 
 <br><br><br>
 
+<b><h2>Specifications</h2></b><br><br>
+
+![image](https://github.com/Wondernica/Engiro-Zero/assets/25891208/63525bf6-7bac-481f-9f7d-919930d6ae9f)
+
+<br><br><br>
+
 <b><h2>Engiro-Zero Debug Port</h2></b><br><br>
 
 
