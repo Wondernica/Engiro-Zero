@@ -1,7 +1,7 @@
 # Engiro-Zero
 
 
-Introducing Engiro Zero: Bridging the Gap Between Hobbyist and Industrial IoT
+#Introducing Engiro Zero: Bridging the Gap Between Hobbyist and Industrial IoT
 Imagine a world where the ease of Arduino development meets the robust power of industrial IoT. That's the reality you unlock with Engiro Zero, the revolutionary board that empowers creators of all levels to transform their ideas into impactful solutions.
 
 Unleash the Power Within:
