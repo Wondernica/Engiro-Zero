@@ -1,5 +1,6 @@
 # Engiro-Zero
 
+![image](https://github.com/Wondernica/Engiro-Zero/assets/25891208/41564253-9d37-456f-9a4e-031297aa6d02)
 
 <b>Introducing Engiro Zero: Bridging the Gap Between Hobbyist and Industrial IoT</b>
 Imagine a world where the ease of Arduino development meets the robust power of industrial IoT. That's the reality you unlock with Engiro Zero, the revolutionary board that empowers creators of all levels to transform their ideas into impactful solutions.<br>
@@ -17,6 +18,10 @@ Imagine a world where the ease of Arduino development meets the robust power of 
 <b>Master Metrology:</b> Collect precise environmental data, optimize operations, and predict weather patterns for informed decision-making.<br>
 <b>Embrace ESG:</b> Monitor emissions, optimize resource usage, and drive sustainable practices for a responsible future.<br>
 
-<b>Engiro Zero is more than just a board; it's a gateway to endless possibilities.</b> Whether you're a seasoned developer crafting industrial solutions or a passionate maker exploring the boundaries of IoT, Engiro Zero equips you with the tools and confidence to turn your vision into reality.
+<b>Engiro Zero is more than just a board; it's a gateway to endless possibilities.</b> Whether you're a seasoned developer crafting industrial solutions or a passionate maker exploring the boundaries of IoT, Engiro Zero equips you with the tools and confidence to turn your vision into reality.<br><br>
+
+<b>Board Overview</b><br><br>
+
+
 
 
