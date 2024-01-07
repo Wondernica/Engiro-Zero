@@ -72,6 +72,41 @@ While not as swift as Ethernet, RS485 still offers impressive data rates, reachi
 
 <b>CONNECTION TO 0~10V SENSOR</b><br>
 
+<img src="https://github.com/Wondernica/Engiro-Zero/assets/25891208/a75d3480-0f8b-4163-bcff-be39423ff26a" width="500" height="350"><br>
+
+Engiro-Zero is designed to accommodate analog voltage outputs from sensors within a range of either 0 to 5 volts or 0 to 10 volts. Inputs exceeding these voltage limits will be subject to clamping, leading to inaccurate data readings. It's crucial to consult the sensor datasheet to ensure compatibility with Engiro-Zero's input range.<br>
+
+Before reaching the analog-to-digital converter (ADC) port, the analog voltage input undergoes attenuation to ensure it falls within acceptable levels. The calculation for determining the analog voltage input from the sensor is as follows:<br><br>
+
+Engiro-Zero Analog Voltage Input Attenuation = 0.34<br>
+Analog-to-Digital (ADC) Converter Resolution = 12-bit<br>
+Number of ADC Steps = 4096 steps<br>
+ADC Reference Voltage = 3.3V<br>
+Voltage Per Steps = 0.8 mV per ADC steps<br>
+
+Hence, Sensor Voltage = ([ADC Value] x 0.8mV) / 0.34 Volt<br><br>
+
+To ensure optimal accuracy of sensor readings, calibration is necessary to mitigate potential errors stemming from board-level noise and component variations. We'll be sharing detailed calibration techniques shortly to guide you through this process.<br><br>
+
+<b>CONNECTION TO 4~20MA SENSOR</b><br>
+
+
+
+<b>CONNECTION TO DIGITAL INPUT</b><br>
+
+
+
+<b>CONNECTION TO DIGITAL OUTPUT</b><br>
+
+
+<b>ON-BOARD 3D ACCELEROMETER</b><br>
+
+
+
+
+
+
+
 
 
 
