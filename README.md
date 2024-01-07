@@ -90,16 +90,19 @@ To ensure optimal accuracy of sensor readings, calibration is necessary to mitig
 
 <b>CONNECTION TO 4~20MA SENSOR</b><br>
 
-
+COMING SOON<br><br>
 
 <b>CONNECTION TO DIGITAL INPUT</b><br>
 
-
+COMING SOON<br><br>
 
 <b>CONNECTION TO DIGITAL OUTPUT</b><br>
 
+COMING SOON<br><br>
 
 <b>ON-BOARD 3D ACCELEROMETER</b><br>
+
+COMING SOON<br><br>
 
 
 
