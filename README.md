@@ -58,7 +58,7 @@ To safeguard your Engiro-Zero board, please adhere to these crucial power requir
 
 <b><h2>Engiro-Zero Sensor Connection</h2></b><br><br>
 
-<b>CONNECTION TO MODBUS RTU SENSOR</b><br>
+<b>CONNECTION TO MODBUS RTU SENSOR</b><br><br>
 
 <img src="https://github.com/Wondernica/Engiro-Zero/assets/25891208/775ed292-3cee-4d8e-9b28-5bb98e739680" width="500" height="350"><br>
 
@@ -70,7 +70,7 @@ Additionally, the balanced differential signals render RS485 highly resilient to
 
 While not as swift as Ethernet, RS485 still offers impressive data rates, reaching up to 10 Mbps depending on the transmission distance. To accommodate the typical RS485 speeds of Modbus devices, which often operate at 9,600 bps, the Engiro-Zero incorporates a built-in transceiver capable of supporting rates up to 250 kbps.<br><br>
 
-<b>CONNECTION TO 0~10V SENSOR</b><br>
+<b>CONNECTION TO 0~10V SENSOR</b><br><br>
 
 <img src="https://github.com/Wondernica/Engiro-Zero/assets/25891208/a75d3480-0f8b-4163-bcff-be39423ff26a" width="500" height="350"><br>
 
@@ -88,21 +88,42 @@ Hence, Sensor Voltage = ([ADC Value] x 0.8mV) / 0.34 Volt<br><br>
 
 To ensure optimal accuracy of sensor readings, calibration is necessary to mitigate potential errors stemming from board-level noise and component variations. We'll be sharing detailed calibration techniques shortly to guide you through this process.<br><br>
 
-<b>CONNECTION TO 4~20MA SENSOR</b><br>
+<b>CONNECTION TO 4~20MA SENSOR</b><br><br>
 
-COMING SOON<br><br>
+<img src="https://github.com/Wondernica/Engiro-Zero/assets/25891208/08e7d835-8a0e-4119-af7e-f7e4b52a407e" width="500" height="350"><br>
 
-<b>CONNECTION TO DIGITAL INPUT</b><br>
+Engiro-Zero is designed to accommodate analog current outputs from sensors within a range of 4 to 20 mA. Inputs exceeding these Current limits will be subject to clamping, leading to inaccurate data readings. It's crucial to consult the sensor datasheet to ensure compatibility with Engiro-Zero's input range.<br>
 
-COMING SOON<br><br>
+Engiro-Zero Analog Voltage Input @ 4 mA = ~0.48V
+Engiro-Zero Analog Voltage Input @ 20 mA = ~2.4V
 
-<b>CONNECTION TO DIGITAL OUTPUT</b><br>
+Analog-to-Digital (ADC) Converter Resolution = 12-bit<br>
+Number of ADC Steps = 4096 steps<br>
+ADC Reference Voltage = 3.3V<br>
+Voltage Per Steps = 0.8 mV per ADC steps<br>
 
-COMING SOON<br><br>
+Hence, Sensor Current  = ([ADC Value] x 8) / 1200 mA<br><br>
 
-<b>ON-BOARD 3D ACCELEROMETER</b><br>
+<b>CONNECTION TO DIGITAL INPUT</b><br><br>
 
-COMING SOON<br><br>
+<img src="https://github.com/Wondernica/Engiro-Zero/assets/25891208/09a0ad49-ff37-403f-b64e-13f20b2c01fe)" width="500" height="350"><br>
+
+Engiro-Zero features two opto-isolated digital inputs with 3.75kV isolation. These are active-low inputs, meaning grounding them activates the opto-isolator. In the absence of an input signal (floating state), the isolator outputs a high voltage of +3.3V. For optimal operation, it's recommended to connect these inputs to systems with open-drain or open-collector outputs. <br><br>
+
+
+<b>CONNECTION TO DIGITAL OUTPUT</b><br><br>
+
+<img src="https://github.com/Wondernica/Engiro-Zero/assets/25891208/aa7cd5b0-493d-4f06-8a71-5a3e0da45026)" width="500" height="350"><br>
+
+Engiro-Zero's outputs are open-collector. You connect the Collector to the system's voltage through a pull-up resistor to create a complete circuit when the output is "on." This setup provides excellent isolation between your system and the external circuit while giving you flexibility to adjust the output voltage based on your system's needs.<br><br>
+
+<b>ON-BOARD 3D ACCELEROMETER</b><br><br>
+
+<img src="https://github.com/Wondernica/Engiro-Zero/assets/25891208/69a62021-bbe0-403d-be40-3522df9c6491)" width="500" height="250"><br>
+
+Engiro-Zero's built-in 3-axis accelerometer, with its configurable detection range, high-speed communication, and dedicated interrupt connection, unlocks a vast array of possibilities. From monitoring machine health and triggering safety protocols, the applications are limited only by your imagination. By understanding the inner workings of this powerful motion-sensing technology, you can harness its true potential and bring your innovative ideas to life.
+
+
 
 
 
